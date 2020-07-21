@@ -28,7 +28,7 @@ insert into produtos (nome, preco, categoria, empresa, ativo) values
 ("Notebook Sony", 3580, "Eletrônico", "Casas Bahia", true),
 ("Smartphone LG k11", 780, "Eletrônico", "Casas Bahia", true);
 
-select * from produtos where preco < 500;
+select * from produtos where preco > 500;
 
 select * from produtos where preco < 500;
 

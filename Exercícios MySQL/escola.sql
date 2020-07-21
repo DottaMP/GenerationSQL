@@ -30,7 +30,7 @@ insert into alunos (nome, ra, serie, notaFinal, ativo) values
 
 select * from alunos where notaFinal >= 7;
 
-select * from alunos where notaFinal > 7;
+select * from alunos where notaFinal < 7;
 
 update alunos set nome = "Valentina Rosário" where id = 15;
 
